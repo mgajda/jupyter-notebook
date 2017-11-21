@@ -9,9 +9,6 @@ import           System.Environment (getArgs)
 import           Control.Monad      (forM_)
 import           Control.Applicative
 import           Data.Aeson.AutoType.Alternative
-import           Data.Aeson(decode, Value(..), FromJSON(..), ToJSON(..),
-                            pairs,
-                            (.:), (.:?), (.=), object)
 import           Data.Monoid
 import           Data.Text (Text)
 import qualified Data.Text as Text
